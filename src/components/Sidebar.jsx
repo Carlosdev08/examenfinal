@@ -31,7 +31,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li className="flex items-center text-gray-700 text-sm py-2">
-          <Link href={"drillinginfo"} className="flex items-center">
+          <Link href={"drilinginfo"} className="flex items-center">
             
             <AiOutlineInfoCircle className="mr-2" /> 
             <span>Drilling Info</span>
