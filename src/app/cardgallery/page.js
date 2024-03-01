@@ -1,11 +1,10 @@
-import HomePage from 'examenfinal/components/HomePage'
+import CardGallery from 'examenfinal/components/CardGallery'
 import React from 'react'
 
 const page = () => {
   return (
-    
     <div>
-      <HomePage />
+        <CardGallery />
     </div>
   )
 }

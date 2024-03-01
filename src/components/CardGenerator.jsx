@@ -81,8 +81,7 @@ const CardGenerator = () => {
         width: '200px', 
         height: '200px' 
       }}>
-        <UserRound size={100} color="bg-transpàrent" />
-      </div>
+        {!card.image && <UserRound size={100} color="bg-transparent" />}      </div>
       <div className="ml-4">
         <p><strong>Name:</strong> {card.name}</p>
         <p><strong>College Name:</strong> {card.collegeName}</p>
