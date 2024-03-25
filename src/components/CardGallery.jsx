@@ -33,7 +33,7 @@ const CardGallery = () => {
       {products?.map((product) => (
         <div
           key={product._id}
-          className={`flex flex-col  items-center text-center bg-[#Ffffff] hover:bg-gray-200 border gap-2 p-6  ${
+          className={`flex flex-col  items-center text-right bg-[#Ffffff] hover:bg-gray-200 border gap-2 p-6  ${
             product.available ? "bg-custom-white" : "bg-gray-200"
           }`}
         >
