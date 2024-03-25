@@ -10,8 +10,11 @@ const CardGallery = () => {
 
   useEffect(() => {
     fetch("https://cafe-de-altura.vercel.app/api/products")
-      .then((response) => response.json())
+      .then((response) => 
+      response.json())
       .then((data) => {
+
+        console.log(data);
         const productsToShow = data.products.slice(0, 8);
            productsToShow.sort((a, d) => d.available - a.available)
 
